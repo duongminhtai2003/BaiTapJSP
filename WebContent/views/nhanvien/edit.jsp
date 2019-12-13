@@ -40,8 +40,8 @@
 									<div class="row">
 										<div class="col-sm-6">
 											<div class="form-group">
-												<label for="id">ID</label> <input type="text"
-													class="form-control" placeholder="Nhập id" name="id" value="<%=nhanVien.getId()%>">
+												<%-- <label for="id">ID</label> <input type="text"
+													class="form-control" placeholder="Nhập id" name="id" value="<%=nhanVien.getId()%>"> --%>
 											</div>
 											<div class="form-group">
 												<label for="name">Tên</label> <input type="text"

@@ -54,7 +54,7 @@ public class NhanVienDAO {
 				+ "FROM nhanvien AS nv "
 				+ "INNER JOIN phongban AS pb "
 				+ "ON nv.id_pb = pb.id "
-				+ "WHERE nv.id_pb = ?";
+				+ "WHERE nv.id = ?";
 		try {
 			ps=conn.prepareStatement(sql);
 			ps.setString(1, id);

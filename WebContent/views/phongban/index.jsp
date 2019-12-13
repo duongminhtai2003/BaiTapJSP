@@ -29,7 +29,7 @@
 					<hr>
 					<div class="row">
 						<div class="col-md-8">
-							<a href="<%=request.getContextPath()%>/nhanvien/add"
+							<a href="<%=request.getContextPath()%>/phongban/add"
 								class="btn btn-success"><span
 								class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Thêm</a>
 						</div>

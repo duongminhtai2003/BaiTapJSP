@@ -45,7 +45,7 @@
 											</div>
 											<div class="form-group">
 												<label>Phòng ban</label> <select class="form-control"
-													name="id_phongban">
+													name="id_pb">
 													<%
 														List<PhongBan> listPhongBan = (List) request.getAttribute("listPhongBan");
 														if (listPhongBan != null) {
